@@ -1,0 +1,14 @@
+.error {
+  width: 100%;
+  height: 56vh;
+  background-color: rgba(236, 101, 101, 0.267);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & span {
+    font-size: 10rem;
+    color: rgb(236, 101, 101);
+  }
+}

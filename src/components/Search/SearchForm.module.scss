@@ -1,0 +1,39 @@
+@use "../../styles/mixins.scss" as mixins;
+
+.form {
+  height: 5rem;
+  border-radius: 0.8rem;
+
+  display: flex;
+  align-items: stretch;
+
+  & input {
+    min-width: 50rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    line-height: inherit;
+    border-radius: 0.8rem 0 0 0.8rem;
+    border: 0;
+    outline: none;
+    padding: 2rem 3rem;
+    cursor: pointer;
+
+    @include mixins.respond(phone-lg) {
+      min-width: 32rem;
+    }
+  }
+
+  & button {
+    border: 0;
+    background-color: black;
+    padding: 2rem 3rem;
+    border-radius: 0 0.8rem 0.8rem 0;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  & button:hover {
+    background-color: var(--very-dark-gray);
+  }
+}
