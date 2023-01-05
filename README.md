@@ -21,6 +21,6 @@ There is also an IP search input form where we can search IP details.
 3. React JS
 4. APIs (Gealocation & Leaflet Maps)
 
-## Live link to the QR code component
+## Live link to the IP Address Tracker
 
 [https://eric-ip-address-tracker-app.netlify.app/](https://eric-ip-address-tracker-app.netlify.app/ "Frontend Mentor Challenge - IP Address Tracker APP")
